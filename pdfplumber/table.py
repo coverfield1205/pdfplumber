@@ -407,7 +407,7 @@ class Table(object):
         x_centroids = list(get_centroids((0, 2)))
         y_centroids = list(get_centroids((1, 3)))
         rows = []
-                for y in y_centroids:
+        for y in y_centroids:
             rows.append(Row([get_cell_by_centroid(x, y) for x in x_centroids]))
         return rows
 
