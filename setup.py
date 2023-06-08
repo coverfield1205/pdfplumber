@@ -2,7 +2,7 @@ import os
 
 from setuptools import setup, find_packages
 
-NAME = "pdfplumber"
+NAME = "pdfplumber_mergedcells"
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 version_ns = {}
